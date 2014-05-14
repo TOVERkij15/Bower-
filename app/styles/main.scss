@@ -1,0 +1,39 @@
+// bower:scss
+// endbower
+
+.wrapper{
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    display:block;
+}
+
+.container{
+    width:980px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.columns{
+    margin-left: -10px;
+    margin-right: -10px;
+    display:block;
+}
+
+.column-one{
+    float:left;
+    padding-left: 10px;
+    padding-right:10px;
+    width:25%;
+}
+
+.column-two{
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    width: 75%;
+    
+}
+
+.repo-tag{
+    padding:10px;
+}
