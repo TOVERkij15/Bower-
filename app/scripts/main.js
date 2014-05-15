@@ -1,5 +1,91 @@
 var repos =[
   {
+    "id": 19795707,
+    "name": "Bower-",
+    "full_name": "TOVERkij15/Bower-",
+    "owner": {
+      "login": "TOVERkij15",
+      "id": 7053958,
+      "avatar_url": "https://avatars.githubusercontent.com/u/7053958?",
+      "gravatar_id": "46c7a83578d263e51d9f7c99a0965ebc",
+      "url": "https://api.github.com/users/TOVERkij15",
+      "html_url": "https://github.com/TOVERkij15",
+      "followers_url": "https://api.github.com/users/TOVERkij15/followers",
+      "following_url": "https://api.github.com/users/TOVERkij15/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TOVERkij15/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TOVERkij15/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TOVERkij15/subscriptions",
+      "organizations_url": "https://api.github.com/users/TOVERkij15/orgs",
+      "repos_url": "https://api.github.com/users/TOVERkij15/repos",
+      "events_url": "https://api.github.com/users/TOVERkij15/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TOVERkij15/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "private": false,
+    "html_url": "https://github.com/TOVERkij15/Bower-",
+    "description": "day 1",
+    "fork": false,
+    "url": "https://api.github.com/repos/TOVERkij15/Bower-",
+    "forks_url": "https://api.github.com/repos/TOVERkij15/Bower-/forks",
+    "keys_url": "https://api.github.com/repos/TOVERkij15/Bower-/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/TOVERkij15/Bower-/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/TOVERkij15/Bower-/teams",
+    "hooks_url": "https://api.github.com/repos/TOVERkij15/Bower-/hooks",
+    "issue_events_url": "https://api.github.com/repos/TOVERkij15/Bower-/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/TOVERkij15/Bower-/events",
+    "assignees_url": "https://api.github.com/repos/TOVERkij15/Bower-/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/TOVERkij15/Bower-/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/TOVERkij15/Bower-/tags",
+    "blobs_url": "https://api.github.com/repos/TOVERkij15/Bower-/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/TOVERkij15/Bower-/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/TOVERkij15/Bower-/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/TOVERkij15/Bower-/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/TOVERkij15/Bower-/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/TOVERkij15/Bower-/languages",
+    "stargazers_url": "https://api.github.com/repos/TOVERkij15/Bower-/stargazers",
+    "contributors_url": "https://api.github.com/repos/TOVERkij15/Bower-/contributors",
+    "subscribers_url": "https://api.github.com/repos/TOVERkij15/Bower-/subscribers",
+    "subscription_url": "https://api.github.com/repos/TOVERkij15/Bower-/subscription",
+    "commits_url": "https://api.github.com/repos/TOVERkij15/Bower-/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/TOVERkij15/Bower-/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/TOVERkij15/Bower-/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/TOVERkij15/Bower-/issues/comments/{number}",
+    "contents_url": "https://api.github.com/repos/TOVERkij15/Bower-/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/TOVERkij15/Bower-/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/TOVERkij15/Bower-/merges",
+    "archive_url": "https://api.github.com/repos/TOVERkij15/Bower-/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/TOVERkij15/Bower-/downloads",
+    "issues_url": "https://api.github.com/repos/TOVERkij15/Bower-/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/TOVERkij15/Bower-/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/TOVERkij15/Bower-/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/TOVERkij15/Bower-/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/TOVERkij15/Bower-/labels{/name}",
+    "releases_url": "https://api.github.com/repos/TOVERkij15/Bower-/releases{/id}",
+    "created_at": "2014-05-14T20:48:21Z",
+    "updated_at": "2014-05-15T17:15:53Z",
+    "pushed_at": "2014-05-14T20:58:14Z",
+    "git_url": "git://github.com/TOVERkij15/Bower-.git",
+    "ssh_url": "git@github.com:TOVERkij15/Bower-.git",
+    "clone_url": "https://github.com/TOVERkij15/Bower-.git",
+    "svn_url": "https://github.com/TOVERkij15/Bower-",
+    "homepage": null,
+    "size": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
+    "language": "JavaScript",
+    "has_issues": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "forks_count": 0,
+    "mirror_url": null,
+    "open_issues_count": 0,
+    "forks": 0,
+    "open_issues": 0,
+    "watchers": 1,
+    "default_branch": "master"
+  },
+  {
     "id": 19316689,
     "name": "day-one-first-project",
     "full_name": "TOVERkij15/day-one-first-project",
@@ -63,7 +149,7 @@ var repos =[
     "labels_url": "https://api.github.com/repos/TOVERkij15/day-one-first-project/labels{/name}",
     "releases_url": "https://api.github.com/repos/TOVERkij15/day-one-first-project/releases{/id}",
     "created_at": "2014-04-30T14:40:26Z",
-    "updated_at": "2014-04-30T17:04:44Z",
+    "updated_at": "2014-05-15T17:15:59Z",
     "pushed_at": "2014-04-30T17:04:44Z",
     "git_url": "git://github.com/TOVERkij15/day-one-first-project.git",
     "ssh_url": "git@github.com:TOVERkij15/day-one-first-project.git",
@@ -71,8 +157,8 @@ var repos =[
     "svn_url": "https://github.com/TOVERkij15/day-one-first-project",
     "homepage": null,
     "size": 324,
-    "stargazers_count": 0,
-    "watchers_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
     "language": "CSS",
     "has_issues": true,
     "has_downloads": true,
@@ -82,7 +168,7 @@ var repos =[
     "open_issues_count": 0,
     "forks": 0,
     "open_issues": 0,
-    "watchers": 0,
+    "watchers": 1,
     "default_branch": "master"
   },
   {
@@ -149,7 +235,7 @@ var repos =[
     "labels_url": "https://api.github.com/repos/TOVERkij15/intro-to-jquery/labels{/name}",
     "releases_url": "https://api.github.com/repos/TOVERkij15/intro-to-jquery/releases{/id}",
     "created_at": "2014-05-13T11:49:57Z",
-    "updated_at": "2014-05-13T13:04:06Z",
+    "updated_at": "2014-05-15T17:16:07Z",
     "pushed_at": "2014-05-13T13:04:05Z",
     "git_url": "git://github.com/TOVERkij15/intro-to-jquery.git",
     "ssh_url": "git@github.com:TOVERkij15/intro-to-jquery.git",
@@ -157,8 +243,8 @@ var repos =[
     "svn_url": "https://github.com/TOVERkij15/intro-to-jquery",
     "homepage": null,
     "size": 0,
-    "stargazers_count": 0,
-    "watchers_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
     "language": "JavaScript",
     "has_issues": true,
     "has_downloads": true,
@@ -168,7 +254,7 @@ var repos =[
     "open_issues_count": 0,
     "forks": 0,
     "open_issues": 0,
-    "watchers": 0,
+    "watchers": 1,
     "default_branch": "master"
   },
   {
@@ -235,16 +321,16 @@ var repos =[
     "labels_url": "https://api.github.com/repos/TOVERkij15/java-script1/labels{/name}",
     "releases_url": "https://api.github.com/repos/TOVERkij15/java-script1/releases{/id}",
     "created_at": "2014-05-08T04:14:24Z",
-    "updated_at": "2014-05-13T11:57:14Z",
+    "updated_at": "2014-05-15T17:16:14Z",
     "pushed_at": "2014-05-13T11:57:15Z",
     "git_url": "git://github.com/TOVERkij15/java-script1.git",
     "ssh_url": "git@github.com:TOVERkij15/java-script1.git",
     "clone_url": "https://github.com/TOVERkij15/java-script1.git",
     "svn_url": "https://github.com/TOVERkij15/java-script1",
     "homepage": null,
-    "size": 0,
-    "stargazers_count": 0,
-    "watchers_count": 0,
+    "size": 168,
+    "stargazers_count": 1,
+    "watchers_count": 1,
     "language": "JavaScript",
     "has_issues": true,
     "has_downloads": true,
@@ -254,7 +340,7 @@ var repos =[
     "open_issues_count": 0,
     "forks": 0,
     "open_issues": 0,
-    "watchers": 0,
+    "watchers": 1,
     "default_branch": "master"
   },
   {
@@ -321,7 +407,7 @@ var repos =[
     "labels_url": "https://api.github.com/repos/TOVERkij15/jsday9/labels{/name}",
     "releases_url": "https://api.github.com/repos/TOVERkij15/jsday9/releases{/id}",
     "created_at": "2014-05-08T21:07:42Z",
-    "updated_at": "2014-05-10T23:52:07Z",
+    "updated_at": "2014-05-15T17:16:20Z",
     "pushed_at": "2014-05-10T23:52:07Z",
     "git_url": "git://github.com/TOVERkij15/jsday9.git",
     "ssh_url": "git@github.com:TOVERkij15/jsday9.git",
@@ -329,8 +415,8 @@ var repos =[
     "svn_url": "https://github.com/TOVERkij15/jsday9",
     "homepage": null,
     "size": 0,
-    "stargazers_count": 0,
-    "watchers_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
     "language": "JavaScript",
     "has_issues": true,
     "has_downloads": true,
@@ -340,7 +426,7 @@ var repos =[
     "open_issues_count": 0,
     "forks": 0,
     "open_issues": 0,
-    "watchers": 0,
+    "watchers": 1,
     "default_branch": "master"
   },
   {
@@ -407,7 +493,7 @@ var repos =[
     "labels_url": "https://api.github.com/repos/TOVERkij15/sass-downloads/labels{/name}",
     "releases_url": "https://api.github.com/repos/TOVERkij15/sass-downloads/releases{/id}",
     "created_at": "2014-05-05T17:08:54Z",
-    "updated_at": "2014-05-07T04:32:51Z",
+    "updated_at": "2014-05-15T17:16:48Z",
     "pushed_at": "2014-05-07T04:32:51Z",
     "git_url": "git://github.com/TOVERkij15/sass-downloads.git",
     "ssh_url": "git@github.com:TOVERkij15/sass-downloads.git",
@@ -415,8 +501,8 @@ var repos =[
     "svn_url": "https://github.com/TOVERkij15/sass-downloads",
     "homepage": null,
     "size": 7584,
-    "stargazers_count": 0,
-    "watchers_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
     "language": "JavaScript",
     "has_issues": true,
     "has_downloads": true,
@@ -426,7 +512,7 @@ var repos =[
     "open_issues_count": 0,
     "forks": 0,
     "open_issues": 0,
-    "watchers": 0,
+    "watchers": 1,
     "default_branch": "master"
   },
   {
@@ -493,7 +579,7 @@ var repos =[
     "labels_url": "https://api.github.com/repos/TOVERkij15/Style-for-days/labels{/name}",
     "releases_url": "https://api.github.com/repos/TOVERkij15/Style-for-days/releases{/id}",
     "created_at": "2014-05-03T22:41:41Z",
-    "updated_at": "2014-05-05T01:44:30Z",
+    "updated_at": "2014-05-15T17:17:01Z",
     "pushed_at": "2014-05-05T01:44:31Z",
     "git_url": "git://github.com/TOVERkij15/Style-for-days.git",
     "ssh_url": "git@github.com:TOVERkij15/Style-for-days.git",
@@ -501,8 +587,8 @@ var repos =[
     "svn_url": "https://github.com/TOVERkij15/Style-for-days",
     "homepage": null,
     "size": 132,
-    "stargazers_count": 0,
-    "watchers_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
     "language": "CSS",
     "has_issues": true,
     "has_downloads": true,
@@ -512,7 +598,7 @@ var repos =[
     "open_issues_count": 0,
     "forks": 0,
     "open_issues": 0,
-    "watchers": 0,
+    "watchers": 1,
     "default_branch": "master"
   },
   {
@@ -579,7 +665,7 @@ var repos =[
     "labels_url": "https://api.github.com/repos/TOVERkij15/surf-and-paddle/labels{/name}",
     "releases_url": "https://api.github.com/repos/TOVERkij15/surf-and-paddle/releases{/id}",
     "created_at": "2014-04-30T17:31:03Z",
-    "updated_at": "2014-05-02T18:58:53Z",
+    "updated_at": "2014-05-15T17:17:06Z",
     "pushed_at": "2014-05-02T18:58:52Z",
     "git_url": "git://github.com/TOVERkij15/surf-and-paddle.git",
     "ssh_url": "git@github.com:TOVERkij15/surf-and-paddle.git",
@@ -587,8 +673,8 @@ var repos =[
     "svn_url": "https://github.com/TOVERkij15/surf-and-paddle",
     "homepage": null,
     "size": 152,
-    "stargazers_count": 0,
-    "watchers_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
     "language": "CSS",
     "has_issues": true,
     "has_downloads": true,
@@ -598,7 +684,7 @@ var repos =[
     "open_issues_count": 0,
     "forks": 0,
     "open_issues": 0,
-    "watchers": 0,
+    "watchers": 1,
     "default_branch": "master"
   },
   {
@@ -665,7 +751,7 @@ var repos =[
     "labels_url": "https://api.github.com/repos/TOVERkij15/Yeoman/labels{/name}",
     "releases_url": "https://api.github.com/repos/TOVERkij15/Yeoman/releases{/id}",
     "created_at": "2014-05-13T21:53:35Z",
-    "updated_at": "2014-05-14T04:39:08Z",
+    "updated_at": "2014-05-15T17:16:29Z",
     "pushed_at": "2014-05-14T04:39:07Z",
     "git_url": "git://github.com/TOVERkij15/Yeoman.git",
     "ssh_url": "git@github.com:TOVERkij15/Yeoman.git",
@@ -673,8 +759,8 @@ var repos =[
     "svn_url": "https://github.com/TOVERkij15/Yeoman",
     "homepage": null,
     "size": 0,
-    "stargazers_count": 0,
-    "watchers_count": 0,
+    "stargazers_count": 1,
+    "watchers_count": 1,
     "language": "JavaScript",
     "has_issues": true,
     "has_downloads": true,
@@ -684,7 +770,7 @@ var repos =[
     "open_issues_count": 0,
     "forks": 0,
     "open_issues": 0,
-    "watchers": 0,
+    "watchers": 1,
     "default_branch": "master"
   }
 ]
@@ -693,7 +779,7 @@ var getName = _.template($(".get-name").text());
 
 repos.forEach(function(name) {
 
-  var allRepos = getName(name);
+var allRepos = getName(name);
 
   $(".column-two").prepend(allRepos);
 });
@@ -704,6 +790,15 @@ var getStar = _.template($('.get-star').text());
 repos.forEach(function(stargazers_count) {
 
   var allRepos = getStar(stargazers_count);
+
+  $(".column-two").prepend(allRepos);
+});
+
+var getforks = _.template($('.get-forks').text());
+
+repos.forEach(function(forks_count) {
+
+  var allRepos = getforks(forks_count);
 
   $(".column-two").prepend(allRepos);
 });

@@ -1,10 +1,13 @@
 // bower:scss
 // endbower
 
+
+
 .wrapper{
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     display:block;
+    font-family:helvetica;
 }
 
 .container{
@@ -24,14 +27,66 @@
     padding-left: 10px;
     padding-right:10px;
     width:25%;
+    background:rgba (65,131,196,0.4);
+}
+
+.username{
+    display:block;
+    overflow:hidden;
+    width:100%;
+    font-size:20px;
+    font-style:normal;
+    font-weight:300;
+    line-height: 24px;
+    color:#666;
+    text-overflow:ellipsis;
+}
+
+.datejoined {
+    list-style:none;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border-top:1px solid #eee;
+}
+
+.stats {
+    margin-bottom: 10px;
+    padding-top:40px;
+    padding-bottom:40px;
+    text-align:center;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    display:block;
+}
+
+.stats-stat{
+    text-decoration: none;
+    text-align: center;
+    float:left;
+    width:33.333%;
+    font-size:11px;
+    color:#999;
+    text-transform:capitalize;
+    display:block;
+
+}
+
+.stats-stat-count{
+    text-decoration: none;
+    display:block;
+    font-size:28px;
+    font-weight: bold;
+    line-height: 1px;
+    color:#222;
+    padding-bottom:7px;
 }
 
 .column-two{
-    float:left;
+    float:right;
     padding-left:10px;
     padding-right:10px;
     width: 75%;
-    
+
 }
 
 .repo-tag{
