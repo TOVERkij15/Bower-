@@ -22,6 +22,7 @@
     display:block;
 }
 
+
 .column-one{
     float:left;
     padding-left: 10px;
@@ -31,6 +32,8 @@
 }
 
 .username{
+    margin-top: 10px;
+    margin-bottom: 10px;
     display:block;
     overflow:hidden;
     width:100%;
@@ -43,10 +46,13 @@
 }
 
 .datejoined {
-    list-style:none;
-    padding-top: 15px;
-    padding-bottom:15px;
+    margin-bottom: 10px;
+    width:100%;
+    padding: 15px 0 10px 0px;
+    overflow-x: hidden;
+    font-size:14px;
     border-top:1px solid #eee;
+    text-overflow: ellipsis;
 }
 
 .stats {
@@ -84,11 +90,42 @@
 .column-two{
     float:right;
     padding-left:10px;
-    padding-right:10px;
+    padding-right:70px;
     width: 75%;
+    font-size:15px;
 
 }
 
 .repo-tag{
     padding:10px;
 }
+
+.names{
+    font-size:20px;
+    line-height:32px;
+    margin-top:0;
+    margin-bottom:0;
+    white-space:nowrap;
+
+}
+
+.stars{
+    position:relative;
+    min-height:66px;
+    padding-left:45px;
+    padding-bottom:20px;
+    margin:0 0 20px;
+    list-style:none;
+    border-bottom:1px solid #eee;
+}
+
+.forks{
+     position:relative;
+    min-height:66px;
+    padding-left:45px;
+    padding-bottom:20px;
+    margin:0 0 20px;
+    list-style:none;
+    border-bottom:1px solid #eee;
+}
+

@@ -804,4 +804,13 @@ repos.forEach(function(forks_count) {
 });
 
 
+var getlanguage = _.template($('.get-language').text());
+
+repos.forEach(function(language_count) {
+
+  var allRepos = getlanguage(language_count);
+
+  $(".column-two").prepend(allRepos);
+});
+
 
