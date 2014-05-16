@@ -60,6 +60,12 @@
             </a>
 </div>
 
+</div>
+
+</div>
+
+
+
 
 <!--end of template stats-->
 
@@ -67,49 +73,53 @@
      
 <!--start of repo-template-->
 
+
       <div class ="column-two">
 
-            <div class ="names">
+                     <script type="text/template" class="get-name">
+                        <div class="get-names1"> <%= name %> 
+                        
+                        </div>
+                        </script>
 
-                    <script type="text/template" class="get-name">
-                    
-                             <%= name %> 
+               </div>
+
+               <div class ="lists">
+
+                <script type="text/template">
+                
+                <ul class ="repo-list">
                     
-                    </script>
+                    <li class ="get-stars1">          
 
-            </div>
-                 
-            <div class ="stars">
-
-                    <script type="text/template" class="get-star">
-                    
-                             <%= stargazers_count %> 
+                        <%= stargazers_count %> 
+                    </li>
                     
-                    </script>
+                    <li class ="get-forks1">        
 
-            </div>        
+                        <%= forks_count %> 
+                
+                    </li>
 
-            
-            <div class ="forks">
+                    <li class ="get-language">
 
-                    <script type="text/template" class="get-forks">
-                    
-                             <%= forks_count %> 
-                    
-                    </script>
-            </div>
-                   
-                    
-                   
+                        <%= language %>
+                    </li>
 
-                    
-                    </div>
+                </ul>
 
-                </div>
-
-            </div>
-
+                
+                </script>    
+                
         </div>
+                   
+ </div>  
+
+
+
+
+
+        
 
 
 

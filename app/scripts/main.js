@@ -813,4 +813,12 @@ repos.forEach(function(language_count) {
   $(".column-two").prepend(allRepos);
 });
 
+var getdescription = _.template($('.get-description').text());
+
+repos.forEach(function(description_count) {
+
+  var allRepos = getdescription(description_count);
+
+  $(".column-two").prepend(allRepos);
+});
 

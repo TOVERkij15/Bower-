@@ -2,6 +2,26 @@
 // endbower
 
 
+.body {
+    font-family: Helvetica;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
 
 .wrapper{
     box-sizing:border-box;
@@ -10,11 +30,6 @@
     font-family:helvetica;
 }
 
-.container{
-    width:980px;
-    margin-right:auto;
-    margin-left:auto;
-}
 
 .columns{
     margin-left: -10px;
@@ -25,10 +40,12 @@
 
 .column-one{
     float:left;
-    padding-left: 10px;
+    padding-left:10px;
     padding-right:10px;
     width:25%;
     background:rgba (65,131,196,0.4);
+    display:block;
+    position:absolute;
 }
 
 .username{
@@ -88,44 +105,52 @@
 }
 
 .column-two{
-    float:right;
-    padding-left:10px;
-    padding-right:70px;
-    width: 75%;
-    font-size:15px;
+    margin-top: 100px;
+    margin-right:10px;
+    margin-left: 275px;
+    margin-bottom: 100%;
+    display:block;
+    height: 500px;
+    width: 500px; 
+    border-bottom:1px solid #eee;
+    border-top:1px solid #eee;
+    position:relative;
+    box-sizing:border-box;
 
 }
 
-.repo-tag{
-    padding:10px;
-}
-
-.names{
+.get-names1{
     font-size:20px;
+    color:blue;
     line-height:32px;
     margin-top:0;
     margin-bottom:0;
     white-space:nowrap;
-
+    display:block;
+     border-bottom:1px solid #eee;
+     text-align:center;
+   
 }
 
-.stars{
-    position:relative;
-    min-height:66px;
-    padding-left:45px;
-    padding-bottom:20px;
-    margin:0 0 20px;
-    list-style:none;
-    border-bottom:1px solid #eee;
+.get-stars1{
+    font-size:20px;
+    line-height:32px;
+    margin-top:0;
+    padding-left:300px;
+    margin-bottom:0;
+    display:block;
+     border-bottom:1px solid #eee;
 }
+.get-forks1{
+   display:block;
+   font-size:14px;
+    line-height:32px;
+    margin-top:0px;
+    margin-bottom:0;
+    margin-right:0;
+    padding-left:400px;
+    white-space:nowrap; 
+     border-bottom:1px solid #eee;
 
-.forks{
-     position:relative;
-    min-height:66px;
-    padding-left:45px;
-    padding-bottom:20px;
-    margin:0 0 20px;
-    list-style:none;
-    border-bottom:1px solid #eee;
 }
 
