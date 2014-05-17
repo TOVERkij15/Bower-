@@ -111,22 +111,13 @@
     margin-bottom: 100%;
     padding:100px;
     display:block;
-    height: 1000px;
+    height: 100%;
     width: 1000px; 
     position:relative;
     box-sizing:border-box;
-
+    
 }
-/*.repo-list{
-    margin-top: 100px;
-    margin-right:10px;
-    margin-left: 275px;
-    margin-bottom: 100
-    height:500px;
-    width:500px; 
-    position:relative;
-    box-sizing:border-box;
-}*/
+
 .get-names1{
     font-size: 20px;
     color:#4183c4;
@@ -137,13 +128,19 @@
     display: block;
     font-weight: bold;
     border-top:1px solid #eee;
+    padding-top:22px;
 }
 
 .get-description{
     color:#333333;
     text-decoration:none;
     margin: 0 0 5px;
+    padding-top:5px;
+    padding-bottom:3px;
+    padding-left:30px;
     font-size:14px;
+
+
 
 }
 
@@ -151,6 +148,8 @@
     margin:0;
     font-size:11px;
     color:#999999;
+    padding-left:30px;
+
 }
 
 
@@ -174,6 +173,7 @@
     position: relative;
     top: 9px;
     width: 150px;
+   
 
 }
 

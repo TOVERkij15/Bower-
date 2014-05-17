@@ -49,7 +49,7 @@
 
     <a class ="stats-stat" href="starred"> 
 
-        <strong class ="stats-stat-count">6</strong> Starred
+        <strong class ="stats-stat-count">5</strong> Starred
                             
             </a>
 
@@ -74,12 +74,12 @@
 <!--start of repo-template-->
 
 
-    <div class ="column-two"></div>
+    <div class ="column-two">
 
      <script type="text/template" class="get-name">
-            <div class="get-names1"> <%= name %>  </div>
+            <div class="get-names1"> <img src= "images/book-icon-big.png"></img> <%= name %>  </div>
             <div class="get-description"> <%= description %> </div> 
-            <div class="update"> <%=updated_at%> </div>
+            <div class="update">Last Updated <%=updated_at%> </div>
                        
                     
 
@@ -90,13 +90,13 @@
 
                     <li class ="get-forks1">        
 
-                        <%= forks_count %> 
+                        <img src="images/fork-icon.png"></img><%= forks_count %> 
                 
                     </li>
 
                     <li class ="get-stars1">          
 
-                        <%= stargazers_count %> 
+                        <img src="images/star-icon.png"></img><%= stargazers_count %> 
                     </li>
                     
                     
@@ -109,6 +109,8 @@
                 </ul>
 
                 </script>
+
+         </div>
               
                 
     
