@@ -33,51 +33,48 @@
 
                         <script type="text/template" class="get-info">
 
-                        <div> <img src="<$= avatar_url %>" width="230" height="230" border-radius="6"></img> </div> 
+                        <div> <img src="<%= avatar_url %>" width="260" 
 
-                          <div class ="username"> TOVERkij15</div>
+                            height="260" border-radius="6"></img> </div> 
 
-                          <div class ="datejoined"> Joined on March 24, 2014
+                          <div class ="username"><%=login%> </div>
+
+                          <div class ="datejoined"> <img src="images/clock-icon.png"></img> Joined on <%=created_at%>
                           </div>
 
              <div class="stats"> 
 
-                 <a class ="stats-stat" href="followers"> 
+                 <div class ="stats-stat" href="followers"> 
                                             
-                    <strong class ="stats-stat-count">3</strong> Followers
+                    <strong class ="stats-stat-count"> <%=followers%> </strong> Followers
                                        
-                         </a>
+                         </div>
 
-                <a class ="stats-stat" href="starred"> 
+                <div class ="stats-stat" href="starred"> 
 
                     <strong class ="stats-stat-count">5</strong> Starred
                                         
-                        </a>
+                        </div>
 
-                 <a class ="stats-stat" href="following"> 
+                 <div class ="stats-stat" href="following"> 
 
-                    <strong class ="stats-stat-count">3</strong> Following
+                    <strong class ="stats-stat-count"><%=following%></strong> Following
 
-                        </a>
-            </div>
+                        </div>
+                </div>
+
+        </div>
+
+    </div>
 
 </div>
 
-</div>
-</div>
-
-
-
-
-                        </script>
+                     </script>
 
 
                 
-
-
-
-</div>
-</div>
+        </div>
+    </div>
 </div>
 <!--end of template stats-->
 
@@ -126,21 +123,6 @@
               
                 
     
-                   
- 
-
-
-
-
-
-        
-
-
-
-
-
-
-
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>

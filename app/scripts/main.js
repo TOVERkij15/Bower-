@@ -6,9 +6,13 @@ $.getJSON("https://api.github.com/users/TOVERkij15/repos?client-id=31b6368691d07
 });
 
 function renderRepos(repos){
+  
   var showRepos =_.template($(".get-name").text());
+  
   repos.forEach(function (allRepos) {
+  
     var rendered = showRepos(allRepos);
+  
     $(".column-two").append(rendered);
   });
 }
@@ -28,7 +32,6 @@ $.getJSON("https://api.github.com/users/TOVERkij15?client-id=31b6368691d0774c212
 
     $('.column-one').prepend(rendered);
   };
-
 
 
 
