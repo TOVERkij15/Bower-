@@ -45,8 +45,10 @@
     width:25%;
     background:rgba (65,131,196,0.4);
     display:block;
-    position:absolute;
+    position:relative;
+    background-repeat: no-repeat;
 }
+
 
 .username{
     margin-top: 10px;
@@ -109,7 +111,8 @@
     margin-right:10px;
     margin-left: 275px;
     margin-bottom: 100%;
-    padding:100px;
+    padding-left:300px;
+    padding-top:100px;
     display:block;
     height: 100%;
     width: 1000px; 
