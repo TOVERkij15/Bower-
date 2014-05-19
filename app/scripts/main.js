@@ -1,7 +1,7 @@
 
 'use strict';
 
-$.getJSON("https://api.github.com/users/TOVERkij15/repos?client-id=31b6368691d0774c212b&client-secret=227508046ccf4d97d53a93dabb0a06d6a3eedd9f").done(function(data){
+$.getJSON("https://api.github.com/users/TOVERkij15/repos").done(function(data){
     renderRepos(data)
 });
 
@@ -21,7 +21,7 @@ function renderRepos(repos){
 var gitHubProfile = _.template($('.git-hub-profile').text());
 
 
-$.getJSON("https://api.github.com/users/TOVERkij15?client-id=31b6368691d0774c212b&client-secret=227508046ccf4d97d53a93dabb0a06d6a3eedd9f").done(function(profile){
+$.getJSON("https://api.github.com/users/TOVERkij15").done(function(profile){
     renderProfile(profile)
 })
   function renderProfile(profile){
@@ -32,6 +32,5 @@ $.getJSON("https://api.github.com/users/TOVERkij15?client-id=31b6368691d0774c212
 
     $('.column-one').prepend(rendered);
   };
-
 
 
